@@ -1,4 +1,5 @@
 using System;
+using Dio.Series.Classes;
 
 namespace DIO.Series
 {
@@ -10,9 +11,10 @@ namespace DIO.Series
 		private string Descricao { get; set; }
 		private int Ano { get; set; }
         private bool Excluido {get; set;}
+        public int Id { get; private set; }
 
         // Métodos
-    	public Serie(int id, Genero genero, string titulo, string descricao, int ano)
+        public Serie(int id, Genero genero, string titulo, string descricao, int ano)
     	{
     		this.Id = id;
     		this.Genero = genero;

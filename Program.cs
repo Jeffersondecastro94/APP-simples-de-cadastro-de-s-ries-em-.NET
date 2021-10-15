@@ -1,4 +1,5 @@
 ﻿using System;
+using DIO.Series;
 
 namespace Dio.Series
 {
